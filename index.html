@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastro de alunos</h1>
+        <div>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <form action="" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required minlength="2" maxlength="12" placeholder="Nome">
+                    <br>
+                    <label for="sobrenome" >Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required minlength="1" maxlength="18" placeholder="Sobrenome">
+                    <br>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" required minlength="2" maxlength="50"  placeholder="Endereço">
+                    <label for="numero">Número:</label>
+                    <input type="text" name="numero" id="numero" required minlength="1" maxlength="6"  placeholder="Endereço">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" required minlength="2" maxlength="15"  placeholder="Endereço">
+                    <label for="estados">Escolha um estado:</label>
+                    <select id="estados" name="estados" required>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    </select>
+                    <label for="cep">CEP:</label>
+                    <input type="number" name="cep" id="cep" required minlength="2" maxlength="9"  placeholder="XXXXX-XXX">
+                    <br>
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" required>
+                    <br>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" value="sexo">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" value="sexo">
+                    <label for="">Feminino</label>
+            
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <label for="termosDeUso">
+                        <input type="checkbox" name="termosDeUso" id="termosDeUso">
+                        Eu declaro que li e aceito os termos de uso.
+                    </label>
+            
+                    <br>
+                    <input type="submit" value="Enviar" class="btn-submit">
+            
+                </form>
+            </fieldset>
+        </div>
+    </section>
+</body>
+</html>

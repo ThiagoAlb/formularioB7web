@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagens/background.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    color: #FFFFFF;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, #633BFF, #3632D9, #425DEF, #3268D9, #1F8FFF);
+    border-radius: 50px;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+}
+
+legend {
+    font-size: 20px;
+}
+
+form {
+    margin: 30px;
+}
+
+form label {
+    margin: 20px;
+}
+.btn-submit {
+    padding: 8px;
+    background-color: #3268D9;
+    font-weight: bold;
+    color: #FFFFFF;
+}
